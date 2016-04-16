@@ -88,7 +88,7 @@ class Main(QtGui.QMainWindow):
         if not self.filename:
             self.filename = QtGui.QFileDialog.getSaveFileName(self, "Save File")
 
-        if not self.filename.endswith(".writer"):
+        if not self.filename.endsWith(".writer"):
             self.filename += ".writer"
 
         with open(self.filename, "wt") as file:
