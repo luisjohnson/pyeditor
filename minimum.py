@@ -65,8 +65,9 @@ class Main(QtGui.QMainWindow):
         self.statusbar = self.statusBar()
 
         #x and y coordiates on the screen, width, height
-        self.setGeometry(100,100,1030,800)
+        #self.setGeometry(100,100,1030,800)
 
+        self.showMaximized()
         self.setWindowTitle("pyEditor")
 
         
